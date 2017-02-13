@@ -32,10 +32,12 @@
 .container {
 	display: flex;
 	background: green;
+	width: 100%;
 	height: calc(100% - 5em);
 }
 
 .single-work {
+	text-align: center;
 	background: pink;
 	margin: 0 10px;
 	height: 100%;
