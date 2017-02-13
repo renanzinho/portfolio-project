@@ -1,0 +1,63 @@
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+	margin: 0;
+}
+
+.names {
+	text-transform: uppercase;
+	font-size: 45px;
+	padding-right: 10%;
+	text-align: right;
+	float: right;
+}
+
+.header {
+	background: #ededed;
+	height: 140px;
+	display: flex;
+}
+
+.works {
+	display: flex;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	overflow: hidden;
+	background: blue;
+	height:400px;
+}
+
+.container {
+	display: flex;
+	background: green;
+	height: calc(100% - 5em);
+}
+
+.single-work {
+	background: pink;
+	margin: 0 10px;
+	height: 100%;
+}
+
+#work-text {
+	height: 20px;
+}
+
+#name-desc {
+	font-size: 0.5em;
+}
+
+.logo-box {
+
+}
+
+#logo {
+
+}
+
+#name-header {
+	/* padding-top: 0.5em; */
+	padding-bottom: 0.15em;
+}
